@@ -1,0 +1,57 @@
+.acc-container {
+  background-color: black;
+}
+.acc-div {
+  padding: 60px 120px 30px 120px;
+}
+.acc-heading {
+  color: white;
+  font-family: 'Altivo Bold';
+  font-size: 24px;
+}
+.acc-button {
+  border: none;
+  background-color: black;
+  color: white;
+}
+.acc-question {
+  color: white;
+  font-family: 'Altivo Medium';
+  font-size: 16px;
+}
+.acc-answer {
+  color: white;
+  font-family: 'Altivo Light';
+  font-size: 14px;
+  padding-left: 26px;
+  opacity: calc(0.6);
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .acc-div {
+    padding: 60px 50px 30px 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .acc-div {
+    padding: 30px 25px 15px 25px;
+  }
+  .button-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .get-started-btn {
+    font-size: 30px;
+    width: 290px;
+    height: 60px;
+  }
+  .note-text {
+    font-size: 12px;
+    margin-top: 10px;
+    color: white;
+    opacity: calc(0.8);
+  }
+}

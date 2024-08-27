@@ -1,0 +1,68 @@
+.header {
+  background-image: url('/src/Assets/Background.png');
+  background-position: center;
+  height: 450px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Make the navbar sticky and positioned at the top */
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+.header-content {
+  color: white;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.upper-navbar {
+  list-style: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: revert;
+  font-size: 16px;
+  font-family: 'Altivo Medium';
+}
+.sign-in-btn {
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  background-color: transparent;
+}
+.lower-navbar {
+  list-style: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-left: 110px;
+  font-size: 12px;
+  font-family: 'Altivo Light';
+}
+.MVP-heading {
+  font-weight: 600;
+  color: white;
+  opacity: calc(0.8);
+  font-size: 48px;
+}
+.MVP-sub-heading {
+  font-family: 'Altivo Medium';
+  color: white;
+  opacity: calc(0.5);
+  font-size: 24px;
+}
+
+/* For mobile component */
+.main-container {
+  padding: 32px;
+  background-color: rgb(42, 40, 40);
+}
